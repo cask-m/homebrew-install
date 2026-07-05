@@ -1,9 +1,9 @@
 cask "localsend" do
-  version :latest
+  version "1.14.0"
   sha256 :no_check
 
-  url "https://localsend.org/download",
-      verified: "localsend.org"
+  url "https://github.com{version}/LocalSend-#{version}-macOS-x86_64.dmg",
+      verified: "://github.com"
 
   name "LocalSend"
   desc "Open-source cross-platform file sharing over the local network"
